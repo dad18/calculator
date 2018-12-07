@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-standalone" content="yes">
 <meta id="status-bar-meta" name="apple-mobile-web-app-status-bar-
 style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Calculator”>
+<meta name="apple-mobile-web-app-title" content="Calculator">
 <meta charset="UTF-8">
 <title>Calculator</title>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -81,11 +81,11 @@ if ('serviceWorker' in navigator) {
 navigator.serviceWorker.register('sw.js').then(function(registration)
 {
            // Registration was successful
-           console.log('ServiceWorker registration successful with
-scope: ', registration.scope);
+           console.log('ServiceWorker registration successful with scope: ', registration.scope);
      }, function(err) {
            // registration failed :(
            console.log('ServiceWorker registration failed: ', err);
 }); });
-} </script>
+}
+</script>
 </html>
