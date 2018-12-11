@@ -1,19 +1,14 @@
 <!doctype html>
 <html>
 <head>
+  <!--WEB APP-->
   <link rel="manifest" href="manifest.json">
-	<!--WEB APP-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#000000"/>
-<!--iOS-->
-<meta name="apple-mobile-web-app-standalone" content="yes">
-<meta id="status-bar-meta" name="apple-mobile-web-app-status-bar-
-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Calculator">
-<meta charset="UTF-8">
-<title>Calculator</title>
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<script type="text/javascript" src="assets/js/calculator.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000"/>
+  <!--iOS-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta id="status-bar-meta" name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Calculator">
 <!--icons-->
 <link rel="apple-touch-icon" href="touch-icons/touch-icon-
 iphone.png">
@@ -23,9 +18,6 @@ icon-ipad.png">
 icon-iphone-retina.png">
 <link rel="apple-touch-icon" sizes="167x167" href="touch-icons/touch-
 icon-ipad-retina.png">
-
-
-
 <!--Splash Screens-->
 <link href="splashscreens/iphone5_splash.png" media="(device-width:
 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio:
@@ -49,7 +41,6 @@ ratio: 3)" rel="apple-touch-startup-image" />
 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio:
 2)" rel="apple-touch-startup-image"/>
 </head>
-
 <body ontouchstart="">
 	<input class="display" type="text" readonly size="18" id="d">
 	<div class="keys">
@@ -74,6 +65,19 @@ ratio: 3)" rel="apple-touch-startup-image" />
 		<button class="button function" onclick="Calculator.display('')">C</button>
 		<button class="button operator" onclick="Calculator.e()">=</button>
 	</div>
+  <script>
+if ('serviceWorker' in navigator) {
+	window.addEventListener('load', function() {
+  		navigator.serviceWorker.register('sw.js').then(function(registration) {
+  		// Registration was successful
+  		console.log('ServiceWorker registration successful with scope: ', registration.scope);
+  	}, function(err) {
+  		// registration failed :(
+  		console.log('ServiceWorker registration failed: ', err);
+  	});
+  });
+}
+</script>
 </body>
 <script>
 if ('serviceWorker' in navigator) {
