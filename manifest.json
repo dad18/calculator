@@ -37,6 +37,5 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "index.html",
-  "orientation": "landscape",
   "theme_color": "#ffffff"
 }
