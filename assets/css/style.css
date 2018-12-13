@@ -51,19 +51,19 @@ body {
 	color: white;
 	background-color: #80b3ff;
 	border-bottom: black 8px solid;
-	border-top: 4px #6f6f6f solid;
+	border-top: 4px #e5e5e5 solid;
 }
 .button.operator {
 	color: white;
 	background-color: #39ff14;
 	border-bottom: black 8px solid;
-	border-top: 4px #6f6f6f solid;
+	border-top: 4px #e5e5e5 solid;
 }
 .button.number {
 	color: white;
 	background-color: #FF69B4;
 	border-bottom: black 8px solid;
-	border-top: 4px #6f6f6f solid;
+	border-top: 4px #e5e5e5 solid;
 }
 
 /* Simulate Button Press */
