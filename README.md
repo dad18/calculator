@@ -8,38 +8,7 @@ A very simple calculator, built as a Progressive Web App.
 
 ### Changelog
 
-**Version x.x.x**
-
-- insert changes here
-
 **Version 1.1.1**
 
 - Fix clear memory
-
-**Version x.x.x**
-
-- insert changes here
-
-**Version x.x.x**
-
-- insert changes here
-
-**Version x.x.x**
-
-- insert changes here
-
-**Version x.x.x**
-
-- insert changes here
-
-**Version x.x.x**
-
-- insert changes here
-
-**Version x.x.x**
-
-- insert changes here
-
-**Version x.x.x**
-
-- insert changes here
+- Changed colors
