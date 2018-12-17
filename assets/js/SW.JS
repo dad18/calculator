@@ -1,4 +1,4 @@
-const CACHE_NAME = 'static-v1.0.6'; 
+const CACHE_NAME = 'static-v1.0.7'; 
 var urlsToCache = [
      'index.html',
  'assets/css/style.css', 'assets/js/calculator.js'
