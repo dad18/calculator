@@ -49,13 +49,13 @@ body {
 }
 .button.function {
 	color: white;
-	background-color: #80b3ff;
+	background-color: #4b0082		;
 	border-bottom: black 8px solid;
 	border-top: 4px #e5e5e5 solid;
 }
 .button.operator {
 	color: white;
-	background-color: #39ff14;
+	background-color: #FF6347;
 	border-bottom: black 8px solid;
 	border-top: 4px #e5e5e5 solid;
 }

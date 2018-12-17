@@ -83,3 +83,63 @@ var Calculator = {
 		}, 1000);
 	}
 }
+// keyboard input
+		document.addEventListener('keydown', function(event) {
+			if(event.key == '1') {
+				Calculator.type( '1' )
+			}
+			if(event.key == '2') {
+				Calculator.type( '2' )
+			}
+			if(event.key == '3') {
+				Calculator.type( '3' )
+			}
+			if(event.key == '4') {
+				Calculator.type( '4' )
+			}
+			if(event.key == '5') {
+				Calculator.type( '5' )
+			}
+			if(event.key == '6') {
+				Calculator.type( '6' )
+			}
+			if(event.key == '7') {
+				Calculator.type( '7' )
+			}
+			if(event.key == '8') {
+				Calculator.type( '8' )
+			}
+			if(event.key == '9') {
+				Calculator.type( '9' )
+			}
+			if(event.key == '0') {
+				Calculator.type( '0' )
+			}
+			if(event.key == '.') {
+				Calculator.type( '.' )
+			}
+			if(event.key == 'c') {
+				Calculator.display('')
+			}
+			if(event.key == '=') {
+				Calculator.e()
+			}
+			if(event.key == '/') {
+				Calculator.type( '/' )
+			}
+			if(event.key == 'x') {
+				Calculator.type( '*' )
+			}
+			if(event.key == '+') {
+				Calculator.type( '+' )
+			}
+			if(event.key == '-') {
+				Calculator.type( '-' )
+			}
+			if(event.key == '(') {
+				Calculator.type( '(' )
+			}
+			if(event.key == ')') {
+				Calculator.type( ')' )
+			}
+		});
