@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
   <title> Calculator</title>
@@ -8,6 +8,7 @@
   <link rel="manifest" href="manifest.json">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000"/>
+  <meta name="description" content="Original scaling">
   <!--iOS-->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta id="status-bar-meta" name="apple-mobile-web-app-status-bar-style" content="default">
@@ -57,6 +58,7 @@ icon-ipad-retina.png">
     <button class="button number" onclick="Calculator.type('(')">(</button>
     <button class="button number" onclick="Calculator.type(')')">)</button>
     <button class="button operator" onclick="Calculator.display(Math.E)">E</button>
+    <button class="button operator" onclick="Calculator.type( '**' )">expo</button>
 	</div>
   <script>
 if ('serviceWorker' in navigator) {
