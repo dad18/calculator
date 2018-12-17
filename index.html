@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+  <title> Calculator</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <script type="text/javascript" src="assets/js/calculator.js"></script>
   <!--WEB APP-->
@@ -35,7 +36,7 @@ icon-ipad-retina.png">
 		<button class="button function" onclick="Calculator.clearMem();">mc</button>
 		<button class="button function" onclick="Calculator.recallMem();">mr</button>
 		<button class="button function" onclick="Calculator.saveMem();">ms</button>
-		<button class="button operator" onclick="Calculator.type('/')">/</button>
+		<button class="button function" onclick="Calculator.type('/')">/</button>
 		<button class="button number" onclick="Calculator.type('7')">7</button>
 		<button class="button number" onclick="Calculator.type('8')">8</button>
 		<button class="button number" onclick="Calculator.type('9')">9</button>
@@ -51,8 +52,11 @@ icon-ipad-retina.png">
 		<button class="button number" onclick="Calculator.type('0')">0</button>
 		<button class="button number" onclick="Calculator.type('.')">.</button>
     <button class="button number" onclick="Calculator.type(Math.PI)">π</button>
-		<button class="button function" onclick="Calculator.display('')">C</button>
-		<button class="button operator" onclick="Calculator.e()">=</button>
+		<button class="button operator" onclick="Calculator.display('')">C</button>
+		<button class="button number" onclick="Calculator.e()">=</button>
+    <button class="button number" onclick="Calculator.type('(')">(</button>
+    <button class="button number" onclick="Calculator.type(')')">)</button>
+    <button class="button operator" onclick="Calculator.display(Math.E)">E</button>
 	</div>
   <script>
 if ('serviceWorker' in navigator) {
